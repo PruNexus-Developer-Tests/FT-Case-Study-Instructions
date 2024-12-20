@@ -8,8 +8,8 @@ Show a simple table that shows portfolio and fund composition details for each d
 2. Fetch historical stock prices for the relevant tickers on each date using an open-source stock price API.
 3. Compute and display the value of each fund based on the stock prices and proportions.
 
-https://github.com/PruNexus-Developer-Tests/FT-Portfolio-Publisher
-https://github.com/PruNexus-Developer-Tests/FT-Fund-Compsition
+1. https://github.com/PruNexus-Developer-Tests/FT-Portfolio-Publisher
+2. https://github.com/PruNexus-Developer-Tests/FT-Fund-Compsition
 
 #### **Sample Table**
 Here’s an example of the desired table layout:
