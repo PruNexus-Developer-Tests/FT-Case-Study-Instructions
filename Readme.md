@@ -16,21 +16,20 @@ Here’s an example of the desired table layout:
 | 2024-12-20 | Fund B    | $850.75     | MSFT: $595.53, AMZN: $255.22   |
 
 #### **Steps to Complete**
-1. Clone the repositories `Portfolio Publisher` and `Fund Compositions`.
+1. Clone the repositories `Portfolio Publisher` and `Fund Compositions` generate your own tokens to fetch data from actions.
 2. Generate artifacts using their respective GitHub Actions.
 3. Use the [Alpha Vantage API](https://www.alphavantage.co/) (or another open-source stock price API of your choice) to fetch stock prices for the relevant tickers on each date. Sign up for a free API key.
 4. Calculate the total value of each fund:
    - For each fund, multiply the `units_owned` by the sum of `(stock price * proportion)` for all tickers in the fund.
 5. Build a webpage that:
    - Displays the data in a table format as shown above.
-   - Allows users to filter by date or fund name.
 6. Write a brief explanation of your approach and any assumptions you made.
 
 #### **Requirements**
-- Use a JavaScript framework (React, Vue, or Angular) for the frontend.
-- Use Node.js for backend logic if needed.
-- Fetch data dynamically from the generated JSON artifacts and API.
-- Ensure the webpage is responsive and visually clean.
+- Use any solution for the frontend
+- Demonstrate the data modeling solution
+- Create tests to ensure incoming data is in correct format
+- Fetch data dynamically from the generated JSON artifacts and API
 
 #### **Submission**
 1. Submit your code as a GitHub repository.
@@ -38,7 +37,5 @@ Here’s an example of the desired table layout:
    - An overview of your solution.
    - Setup instructions.
    - How to run your code.
-
----
 
 Feel free to ask questions or clarify assumptions as needed. Good luck!
