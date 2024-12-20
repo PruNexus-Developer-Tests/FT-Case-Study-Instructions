@@ -26,7 +26,7 @@ Here’s an example of the desired table layout:
 3. Use the [Alpha Vantage API](https://www.alphavantage.co/) (or another open-source stock price API of your choice) to fetch stock prices for the relevant tickers on each date. Sign up for a free API key.
 4. Calculate the total value of each fund:
    - For each fund, multiply the `units_owned` by the sum of `(stock price * proportion)` for all tickers in the fund.
-5. Develop any number of apps to automate the data extraction and modelling and expose an api to a front end.
+5. Develop any number of apps or connect any number of platforms to automate the data extraction and modelling and expose an api to a front end.
 6. Build a webpage that:
    - Displays the data in a table format as shown above.
 7. Write a brief explanation of your approach and any assumptions you made.
